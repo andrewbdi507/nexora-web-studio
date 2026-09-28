@@ -1,0 +1,23 @@
+# Nexora Web Studio - Gitignore
+# === NODE ===
+node_modules/
+
+# === NEXT.JS ===
+.next/
+.next/*.log
+
+# === VERCEL ===
+.vercel/
+
+# === AMBIENTE ===
+.env*
+.env.local*
+!.env.example
+
+# === TYPESCRIPT BUILD INFO ===
+tsconfig.tsbuildinfo
+
+# === ARQUIVOS DE AUDITORIA / TEMPORÁRIOS (NÃO INCLUIR) ===
+check_git.ps1
+test_import.py
+audit_report.md
