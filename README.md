@@ -93,7 +93,7 @@ pnpm install
 
 ```bash
 npm run dev
-# Inicia o servidor de desenvolvimento em http://localhost:3000 com Turbopack
+# Inicia o servidor de desenvolvimento em https://site-nexora-oficial.vercel.app/ com Turbopack
 ```
 
 ### Build de produção
@@ -121,7 +121,7 @@ As variáveis de ambiente são configuradas no arquivo `.env.example`:
 
 ```env
 # Exemplos de variáveis (ver .env.example para detalhes)
-NEXT_PUBLIC_APP_URL=http://localhost:3000
+NEXT_PUBLIC_APP_URL=https://site-nexora-oficial.vercel.app/
 ```
 
 - Nenhuma credencial real ou API key é necessária para a DEMO
